@@ -33,9 +33,16 @@
 | Server error | 5**      | 
 
 **`201` Created** Success code for new resources 
+
 **`400` Bad Request**
+
 **`401` Unauthorized** Means that the thing you wanted to do may be possible, but only if you are authorized to do so.
+
 **`404` Page Not Found** 
+
 **`405` Method Not Allowed**
+
 **`410` Gone** There used to be something there, but it no longer exists. 
+
 **`422` Unprocessable Entity** Request was valid but there is something wrong with the data being sent to the server. 
+
